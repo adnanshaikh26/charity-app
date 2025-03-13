@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, Heart, Users, DollarSign, Award, CheckCircle } from "lucide-react"
+import { ArrowRight, Heart, Users, Award, CheckCircle,IndianRupee } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -115,7 +115,7 @@ export default function Home() {
                 suffix="+"
               />
               <ImpactCounter
-                icon={<DollarSign className="h-10 w-10 text-primary" />}
+                icon={<IndianRupee className="h-10 w-10 text-primary" />}
                 value={1000000}
                 label="Funds Raised"
                 prefix="$"
@@ -183,7 +183,7 @@ export default function Home() {
               <Card>
                 <CardContent className="pt-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-                    <DollarSign className="h-6 w-6 text-primary" />
+                    <IndianRupee className="h-6 w-6 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">Make a Donation</h3>
                   <p className="text-muted-foreground mb-4">
@@ -307,7 +307,7 @@ export default function Home() {
                 <span className="text-xl font-bold">Helping Hand</span>
               </div>
               <p className="text-muted-foreground mb-4">
-                Providing financial relief and support to those in need since 2013.
+                Providing financial relief and support to those in need since 2025.
               </p>
               <div className="flex gap-4">
                 <Link href="#" className="text-muted-foreground hover:text-primary">
@@ -402,7 +402,7 @@ export default function Home() {
                 <p>Aple ghar society</p>
                 <p>Kharadi, Pune</p>
                 <p className="mt-2">info@helpinghand.org</p>
-                <p>(202) 123-4567</p>
+                <p>(+91) 73859 25527</p>
               </address>
             </div>
             <div>
