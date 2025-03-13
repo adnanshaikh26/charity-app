@@ -110,26 +110,26 @@ export default function Home() {
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
               <ImpactCounter
                 icon={<Users className="h-10 w-10 text-primary" />}
-                value={500}
+                value={100}
                 label="Families Supported"
                 suffix="+"
               />
               <ImpactCounter
                 icon={<IndianRupee className="h-10 w-10 text-primary" />}
-                value={1000000}
+                value={100000}
                 label="Funds Raised"
-                prefix="$"
+                prefix="₹"
                 suffix="+"
               />
               <ImpactCounter
                 icon={<Award className="h-10 w-10 text-primary" />}
-                value={10}
+                value={1}
                 label="Years of Service"
                 suffix="+"
               />
               <ImpactCounter
                 icon={<CheckCircle className="h-10 w-10 text-primary" />}
-                value={95}
+                value={97}
                 label="Success Rate"
                 suffix="%"
               />
