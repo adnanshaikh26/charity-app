@@ -19,7 +19,7 @@ export default function ImpactCounter({ icon, value, label, prefix = "", suffix 
     const duration = 2000 // 2 seconds
     const frameDuration = 1000 / 60 // 60fps
     const totalFrames = Math.round(duration / frameDuration)
-    const increment = value / totalFrames
+    // const increment = value / totalFrames
 
     let currentFrame = 0
 

@@ -25,7 +25,7 @@ export default function TestimonialCard({ name, location, quote, imageSrc }: Tes
           <div className="absolute -top-4 left-6 rounded-full bg-primary/10 p-2">
             <QuoteIcon className="h-5 w-5 text-primary" />
           </div>
-          <blockquote className="text-muted-foreground">"{quote}"</blockquote>
+          <blockquote className="text-muted-foreground">{quote}</blockquote>
         </div>
       </CardContent>
     </Card>
