@@ -4,7 +4,7 @@ import { ArrowRight, Heart, Users, Award, CheckCircle,IndianRupee } from "lucide
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import DonationForm from "@/components/donation-form"
+// import DonationForm from "@/components/donation-form"
 // import TestimonialCard from "@/components/testimonial-card"
 import NewsletterForm from "@/components/newsletter-form"
 import ImpactCounter from "@/components/impact-counter"
@@ -210,7 +210,7 @@ export default function Home() {
                   </Button>
                 </CardContent>
               </Card>
-              <Card>
+              {/* <Card>
                 <CardContent className="pt-6">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                     <Award className="h-6 w-6 text-primary" />
@@ -224,7 +224,7 @@ export default function Home() {
                     <Link href="#fundraise">Start Fundraising</Link>
                   </Button>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
           </div>
         </section>
@@ -253,7 +253,7 @@ export default function Home() {
                     <span>Transparent impact reporting</span>
                   </div>
                 </div>
-                <div className="grid grid-cols-5 gap-4 items-center mt-8">
+                {/* <div className="grid grid-cols-5 gap-4 items-center mt-8">
                   <Image
                     src="/placeholder.svg?height=60&width=120"
                     alt="Partner Logo"
@@ -289,10 +289,16 @@ export default function Home() {
                     height={60}
                     className="grayscale hover:grayscale-0 transition-all"
                   />
-                </div>
+                </div> */}
               </div>
               <div>
-                <DonationForm />
+                {/* <DonationForm /> */}
+                <Image 
+                src="/assets/images/qr-code.jpg"
+                alt="QR Scanner"
+                width={500}
+                height={600}
+                className=""/>
               </div>
             </div>
           </div>
